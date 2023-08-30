@@ -14,17 +14,12 @@
 }
 
 .card.pizza{
-    box-shadow: 0.25rem 0.25rem 0.5rem firebrick;
+    box-shadow: 0.5rem 0.5rem 0.5rem firebrick;
 }
 
 .card.mine{
-    box-shadow: 0.25rem 0.25rem 0.5rem teal;
+    box-shadow: 0.5rem 0.5rem 0.5rem teal;
 }
-
-
-
-
-
 
 .card img{
     width: 100%;

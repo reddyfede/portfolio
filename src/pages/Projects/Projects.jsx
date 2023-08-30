@@ -4,6 +4,7 @@ import { ProjectList } from "./ProjectList"
 export default function Projects() {
     return(
         <div id="projects">
+            <h1>Projects</h1>
             {ProjectList.map((project, idx)=>(
                 <div className={project.class + " card"} key={idx}>
                     <img src={project.image} alt={project.name}/>

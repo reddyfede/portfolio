@@ -12,3 +12,7 @@
     border-radius: 50%;
     box-shadow: 0.25rem 0.25rem #42C2FF;
 }
+
+#home p{
+    color: white
+}
