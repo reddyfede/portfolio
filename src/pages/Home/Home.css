@@ -1,0 +1,14 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+
+#home>img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    box-shadow: 0.25rem 0.25rem #42C2FF;
+}

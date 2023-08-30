@@ -6,17 +6,17 @@
 }
 
 #about {
-  height: 100vh;
-  background-color: rgb(173, 203, 230);
+  min-height: 100vh;
+  background-color: #B8FFF9;
 }
 
 #home, #projects{
-  height: 100vh;
-  background-color: lightblue;
+  min-height: 100vh;
+  background-color: #85F4FF;
 }
 
 .Navbar {
-  background-color: lightskyblue;
+  background-color: #42C2FF;
   position: fixed;
   right:0;
   width: 5rem;
@@ -28,5 +28,5 @@
 }
 
 .Footer {
-  background-color: lightskyblue;
+  background-color:  #B8FFF9;
 }
