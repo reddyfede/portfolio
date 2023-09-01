@@ -1,7 +1,10 @@
+import "./Footer.css"
+import {Contacts} from "../"
+
 export default function Footer() {
     return(
-        <div className="Footer">
-            <h1>Footer</h1>
+        <div id="Footer">
+            <Contacts/>
         </div>
     )
 }

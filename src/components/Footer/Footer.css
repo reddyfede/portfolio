@@ -1,0 +1,13 @@
+#Footer{
+    background-color: #42C2FF;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+#Footer * :hover{
+    color: #0C356A;
+}

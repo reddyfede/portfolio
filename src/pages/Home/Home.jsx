@@ -1,12 +1,15 @@
+import foto from "../../images/profile.jpg"
 import "./Home.css"
+import {Contacts} from "../../components"
 
 export default function Home() {
     return(
         <div id="home">
-            <img src="http://placekitten.com/400/400"/>
+            <img src={foto} alt="profilePic"/>
             <div>
-                <h1>Federico</h1>
+                <h1>federicoRossi</h1>
                 <p>Software Engineer</p>
+                <Contacts/>
             </div>
         </div>
     )

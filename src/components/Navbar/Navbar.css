@@ -1,1 +1,29 @@
 
+.Navbar {
+    background-color: #42C2FF;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.navItem{
+    color: #B8FFF9;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 33%;
+}
+
+.Navbar :first-child{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center-left;
+}
+
+.navItem:hover{
+    color: #0C356A;
+}

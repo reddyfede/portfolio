@@ -7,12 +7,20 @@
 }
 
 #home>img{
-    height: 20rem;
-    width: 20rem;
+    height: 40vw;
+    width: 40vw;
+    object-fit:cover;
     border-radius: 50%;
-    box-shadow: 0.25rem 0.25rem #42C2FF;
+    border: 5px solid #42C2FF;
+}
+
+#home h1{
+    color: #B8FFF9;
+    margin-top: 0;
+    font-size: 10vw;
 }
 
 #home p{
-    color: white
+    font-size: 6vw;
+    color: #42C2FF;
 }

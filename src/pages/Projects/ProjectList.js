@@ -4,7 +4,7 @@ import litteitalypizzaGif from "../../images/littleitalypizza.gif"
 const ProjectList = [
     {
         name: "Little Italy Pizza",
-        about: "Litlle Italy Pizza is a MEN-stack web application for a fictitious pizza shop. Created as a week-long pair programming project at GA Software Engineering Immersive Bootcamp.",
+        about: "Little Italy Pizza is a MEN-stack web application for a fictitious pizza shop. Created as a week-long pair programming project at GA Software Engineering Immersive Bootcamp.",
         tech: ["Node.js","Express","Mongoose","MongoDB","Bootstrap","HTML", "CSS", "JavaScript"],
         image: litteitalypizzaGif,
         github: "https://github.com/reddyfede/little-italy-pizza",

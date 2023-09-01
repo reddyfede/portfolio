@@ -4,14 +4,14 @@ import "./Navbar.css"
 export default function Navbar() {
     return(
         <nav className="Navbar">
-            <HashLink smooth to="/#home">
-            	Home
+            <HashLink className="navItem" smooth to="/#home">
+            	fR
             </HashLink>
-            <HashLink smooth to="/#about">
-            	About
-            </HashLink>
-            <HashLink smooth to="/#projects">
+            <HashLink className="navItem" smooth to="/#projects">
             	Projects
+            </HashLink>
+            <HashLink className="navItem" smooth to="/#about">
+            	About Me
             </HashLink>
         </nav>
     )
