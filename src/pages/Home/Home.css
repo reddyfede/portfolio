@@ -3,12 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:3rem;
+    gap: 3rem;
 }
 
 #home>img{
-    height: 40vw;
-    width: 40vw;
+    height: 55vw;
     object-fit:cover;
     border-radius: 50%;
     border: 5px solid #42C2FF;
@@ -17,10 +16,43 @@
 #home h1{
     color: #B8FFF9;
     margin-top: 0;
-    font-size: 10vw;
+    font-size: 12vw;
 }
 
 #home p{
-    font-size: 6vw;
+    font-size: 8vw;
     color: #42C2FF;
+}
+
+@media screen and (min-width: 480px) {
+    #home{
+        gap:1.5em
+    }
+    #home>img{
+       max-height: 300px; 
+    }
+    #home h1{
+        font-size: 9vw;
+    }
+    #home p{
+        font-size: 6vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #home {
+     flex-direction: row;
+    }
+
+    #home>img{
+        height: 28vw;
+    }
+
+    #home h1{
+        font-size: 6vw;
+    }
+
+    #home p{
+        font-size: 4vw;
+    }
 }

@@ -6,11 +6,17 @@
     gap: 3rem;
 }
 
+.projContainer{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+}
+
 .card {
     width: 70vw;
     background-color: #B8FFF9;
     padding: 1rem;
-    border-radius: 1em;
+    border-radius: 2vw;
 }
 
 .card.pizza{
@@ -24,7 +30,7 @@
 .card img{
     width: 100%;
     height: auto;
-    border-radius: 1em;
+    border-radius: 1vh;
 }
 
 .card div{
@@ -66,3 +72,13 @@ a.mine{
     background-color: teal;
 }
 
+@media screen and (min-width: 768px) {
+    .projContainer{
+        flex-direction: row;
+        gap:3rem;
+    }
+    .card {
+        width: 30vw;
+        border-radius: 1rem;
+    }
+}
