@@ -2,6 +2,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem;
+    padding: 3rem 6rem;
     gap: 3rem;
+
+}
+
+#about h2{
+    margin-top:2rem;
+    color: lightblue;
+}
+
+#about p{
+    color: white;
+    font-size: x-large;
+}
+
+.subContainer{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:3rem;
+}
+
+@media screen and (min-width: 768px) {
+    #about{
+        padding: 3rem 3rem;
+        gap: 3rem;
+        width: 60%;
+    }
 }

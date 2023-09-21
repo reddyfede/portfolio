@@ -11,7 +11,7 @@ export default function Projects() {
                     <div className={project.class + " card"} key={idx}>
                         <img src={project.image} alt={project.name}/>
                         <p>{project.about}</p>
-                        <div>
+                        <div className="techContainer">
                             {project.tech.map((t,id)=>(
                                 <h5 className={project.class} key={id}>{t}</h5>
                             ))}

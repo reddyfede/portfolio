@@ -9,7 +9,7 @@ const ProjectList = [
         tech: ["Node.js","Express","React","Mongoose","MongoDB","Tailwind", "JavaScript"],
         image: eventlyGif,
         github: "https://github.com/reddyfede/event-ly",
-        link:"https://github.com/reddyfede/event-ly",
+        link:"https://event-ly.netlify.app/",
         class: "event"
     },
     {
@@ -30,7 +30,6 @@ const ProjectList = [
         link:"https://reddyfede.github.io/minesweeper/",
         class: "mine"
     },
-    
 ]
 
 export{

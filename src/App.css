@@ -3,6 +3,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #0C356A;
 }
 
@@ -10,7 +11,7 @@ h1{
   color: white;
 }
 
-#home, #projects, #about{
+#home, #projects{
   min-height: 100vh;
 }
 
