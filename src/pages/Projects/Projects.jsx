@@ -16,7 +16,7 @@ export default function Projects() {
                                 <h5 className={project.class} key={id}>{t}</h5>
                             ))}
                         </div>
-                        <div>
+                        <div className="btnContainer">
                             <a href={project.github} className={project.class} target="_blank" rel="noreferrer">Github Link</a>
                             <a href={project.link} className={project.class} target="_blank" rel="noreferrer">Live Link</a>
                         </div>
