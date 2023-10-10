@@ -28,7 +28,7 @@ const ProjectList = [
         tech: ["Node.js","Express","Mongoose","MongoDB","Bootstrap", "JavaScript"],
         image: litteitalypizzaGif,
         github: "https://github.com/reddyfede/little-italy-pizza",
-        link:"https://little-italy-pizza.onrender.com/",
+        link:"https://littleitaly-e2a8e59785f8.herokuapp.com/",
         class: "pizza"
     },
     {
