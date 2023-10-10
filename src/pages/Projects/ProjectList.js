@@ -7,7 +7,7 @@ const ProjectList = [
     {
         name: "Task Flow",
         about: "TaskFlow is an app to manage your team work. Team Leader can create tasks and assign them to team members based on their weekly availability. Team members can view their daily tasks on a gantt chart. Created in 10 days as a pair-programming project for the General Assembly Software Engineer Immersive Bootcamp.",
-        tech: [,"React","Django","PostgreSQL","Styled-Components", "Python", "JavaScript"],
+        tech: ["React","Django","PostgreSQL","Styled-Components", "Python", "JavaScript"],
         image: taskflowGif,
         github: "https://https://github.com/reddyfede/task-flow",
         link:"https://task-flow-prod.netlify.app/",
