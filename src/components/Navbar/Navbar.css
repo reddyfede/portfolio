@@ -18,11 +18,11 @@
     font-size: 1.5rem;
     width: 33%;
     transition: all 0.3s;
+    font-weight: bold;
 }
 
 .Navbar :first-child{
     font-size: 2rem;
-    font-weight: bold;
 }
 
 .navItem:hover{

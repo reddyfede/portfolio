@@ -1,6 +1,6 @@
 @keyframes slideInFromRight {
     0% {
-      transform: translateX(+10%);
+      transform: translateX(+30px);
       opacity: 0;
     }
     100% {
@@ -11,7 +11,7 @@
 
 @keyframes slideInFromLeft {
     0% {
-      transform: translateX(-10%);
+      transform: translateX(-30px);
       opacity: 0;
     }
     100% {
@@ -22,7 +22,7 @@
 
 @keyframes slideInFromBot {
     0% {
-      transform: translateY(+50%);
+      transform: translateY(+30px);
       opacity: 0;
     }
     100% {
@@ -33,7 +33,7 @@
 
 @keyframes slideInFromTop {
     0% {
-      transform: translateY(-10%);
+      transform: translateY(-30px);
       opacity: 0;
     }
     100% {
@@ -41,6 +41,7 @@
       opacity:100%;
     }
 }
+
 
 #home{
     display: flex;
@@ -62,13 +63,13 @@
     color: white;
     margin-top: 0;
     font-size: 12vw;
-    animation: 1.5s ease-out 0s 1 slideInFromLeft;
+    animation: 1.5s ease-out 0s 1 slideInFromRight;
 }
 
 #home p{
     font-size: 8vw;
     color: #42C2FF;
-    animation: 1.5s ease-out 0s 1 slideInFromRight;
+    animation: 1.5s ease-out 0s 1 slideInFromLeft;
 }
 
 #home .contacts{
@@ -102,10 +103,11 @@
 
     #home h1{
         font-size: 6vw;
-        animation: 1.5s ease-out 0s 1 slideInFromRight;
+        animation: 1.5s ease-out 0s 1 slideInFromTop;
     }
 
     #home p{
         font-size: 4vw;
+        animation: 1.4s ease-out 0s 1 slideInFromRight;
     }
 }
