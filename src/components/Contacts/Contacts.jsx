@@ -9,25 +9,33 @@ export default function Contacts() {
         target='_blank'
         rel='noreferrer'
         className='fa-brands fa-linkedin'
-      ></a>
+      >
+        {' '}
+      </a>
       <a
         href='https://github.com/reddyfede'
         target='_blank'
         rel='noreferrer'
         className='fa-brands fa-github'
-      ></a>
+      >
+        {' '}
+      </a>
       <a
         href="mailto:reddyfede@gmail.com?subject=Let's get in touch!&body=I saw your portfolio."
         target='_blank'
         rel='noreferrer'
         className='fa-solid fa-envelope'
-      ></a>
+      >
+        {' '}
+      </a>
       <a
         href={resume}
         target='_blank'
         rel='noreferrer'
         className='fa-solid fa-id-card'
-      ></a>
+      >
+        {' '}
+      </a>
     </div>
   );
 }
