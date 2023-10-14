@@ -6,8 +6,15 @@
     align-items: center;
     justify-content: space-evenly;
     text-decoration: none;
+    
+}
+
+#Footer *{
+    transition: all 0.3s;
 }
 
 #Footer * :hover{
     color: #0C356A;
+    transform: scale(1.2);
+    transition: all 0.3s;
 }

@@ -9,8 +9,10 @@
     color: white;
     font-size: 2rem;
     text-decoration: none;
+    transition: all 0.3s;
 }
 
 .Contacts a:hover{
     color: #42C2FF;
+    transform: scale(1.2);
 }

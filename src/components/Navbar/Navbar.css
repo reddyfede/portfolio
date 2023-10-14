@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-evenly;
     text-decoration: none;
+    z-index: 1;
 }
 
 .navItem{
@@ -16,14 +17,15 @@
     text-decoration: none;
     font-size: 1.5rem;
     width: 33%;
+    transition: all 0.3s;
 }
 
 .Navbar :first-child{
     font-size: 2rem;
     font-weight: bold;
-    text-align: center-left;
 }
 
 .navItem:hover{
     color: #0C356A;
+    transform: scale(1.1);
 }

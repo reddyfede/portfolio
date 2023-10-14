@@ -22,22 +22,43 @@
     background-color: white;
     padding: 1rem;
     border-radius: 2vw;
+    transition: all 0.5s;
 }
 
 .card.pizza{
+    box-shadow: 0.3rem 0.3rem 0.3rem firebrick;
+}
+
+.card.pizza:hover{
     box-shadow: 0.5rem 0.5rem 0.5rem firebrick;
 }
 
 .card.mine{
+    box-shadow: 0.3rem 0.3rem 0.3rem teal;
+}
+
+.card.mine:hover{
     box-shadow: 0.5rem 0.5rem 0.5rem teal;
 }
 
 .card.event{
+    box-shadow: 0.3rem 0.3rem 0.3rem rgb(5,122,255);
+}
+
+.card.event:hover{
     box-shadow: 0.5rem 0.5rem 0.5rem rgb(5,122,255);
 }
 
 .card.task{
+    box-shadow: 0.3rem 0.3rem 0.3rem rgb(8,10,53);
+}
+
+.card.task:hover{
     box-shadow: 0.5rem 0.5rem 0.5rem rgb(8,10,53);
+}
+
+.card:hover{
+    transform: scale(1.05);
 }
 
 .card img{
@@ -58,6 +79,14 @@
 
 .btnContainer{
     margin-top:15px;
+}
+
+.btnContainer a{
+    transition: all 0.3s;
+}
+
+.btnContainer a:hover{
+    transform: scale(1.1);
 }
 
 .card h5{
