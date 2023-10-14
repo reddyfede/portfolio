@@ -97,7 +97,7 @@
     }
 
     #home>img{
-        height: 28vw;
+        max-height: 25vw;
         animation: 1.5s ease-out 0s 1 slideInFromLeft;
     }
 
