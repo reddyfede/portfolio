@@ -6,7 +6,7 @@ import taskflowGif from "../../images/taskflow.gif"
 const ProjectList = [
     {
         name: "Task Flow",
-        about: "TaskFlow is an app to manage your team work. Team Leader can create tasks and assign them to team members based on their weekly availability. Team members can view their daily tasks on a gantt chart. Created in 10 days as a pair-programming project for the General Assembly Software Engineer Immersive Bootcamp.",
+        about: "TaskFlow is an app to manage your team work. Team Leader can create tasks and assign them to team members based on their weekly availability. Team members can view their daily tasks on a gantt chart. Created in 10 days as a pair-programming project for the General Assembly Software Engineering Immersive Bootcamp.",
         tech: ["React","Django","PostgreSQL","Styled-Components", "Python", "JavaScript"],
         image: taskflowGif,
         github: "https://https://github.com/reddyfede/task-flow",
@@ -15,7 +15,7 @@ const ProjectList = [
     },
     {
         name: "event.ly",
-        about: "event.ly is a map-based web application for finding and creating events to connect with people in your local community. Created in 10 days as a pair-programming project for the General Assembly Software Engineer Immersive Bootcamp.",
+        about: "event.ly is a map-based web application for finding and creating events to connect with people in your local community. Created in 10 days as a pair-programming project for the General Assembly Software Engineering Immersive Bootcamp.",
         tech: ["Node","Express","React","MongoDB","Tailwind", "Leaflet", "BingMap API", "Unsplash API", "JavaScript"],
         image: eventlyGif,
         github: "https://github.com/reddyfede/event-ly",
@@ -33,7 +33,7 @@ const ProjectList = [
     },
     {
         name: "Minesweeper",
-        about: "My take at recreating this classic game as the first solo project for the General Assembly Software Engineer Immersive Bootcamp.",
+        about: "My take at recreating this classic game as the first solo project for the General Assembly Software Engineering Immersive Bootcamp.",
         tech: ["HTML", "CSS", "JavaScript"],
         image: minesweeperGif,
         github: "https://github.com/reddyfede/minesweeper",
