@@ -118,6 +118,12 @@ h5.task{
     border-radius: 0.5rem;
 }
 
+#projects p {
+    text-align: justify;
+    font-size:medium;
+}
+
+
 a.pizza{
     background-color: firebrick;
 }
@@ -140,6 +146,9 @@ a.task{
         min-width: 550px;
         border-radius: 1rem;
         min-height: 530px;
+    }
+    #projects p {
+        font-size:large;
     }
 
 }
