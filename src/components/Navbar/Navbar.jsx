@@ -7,11 +7,11 @@ export default function Navbar() {
       <HashLink className='navItem' smooth to='/#home'>
         fR
       </HashLink>
+      <HashLink className='navItem' smooth to='/#about'>
+        About Me
+      </HashLink>
       <HashLink className='navItem' smooth to='/#projects'>
         Projects
-      </HashLink>
-      <HashLink className='navItem' smooth to='/#about'>
-        About
       </HashLink>
     </nav>
   );
