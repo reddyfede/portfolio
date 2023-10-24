@@ -31,12 +31,11 @@ export default function About() {
       </h1>
 
       <p>
-        I am a Software Engineer with a background and work experience in
-        Industrial Engineering.
+        I am a Software Engineer with a background in Industrial Engineering.
         <br />
-        In my previous job experiences I worked closely with software suppliers
-        doing Business Analysis and Quality Assurance to implement new software
-        for the factory.
+        In my previous role I carried out Business Analysis and Quality
+        Assurance working closely with software suppliers to implement new
+        software for the factory.
         <br />
         This has provided me the experience necessary to liaise with clients and
         suppliers throughout a full software life cycle.
