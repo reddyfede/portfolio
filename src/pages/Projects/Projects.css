@@ -142,7 +142,7 @@ a.task{
 
 @media screen and (min-width: 768px) {
     .card {
-        width: 40vw;
+        width: 35vw;
         min-width: 550px;
         border-radius: 1rem;
         min-height: 530px;
